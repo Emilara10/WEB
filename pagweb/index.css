@@ -1,0 +1,32 @@
+body {
+    color:indigo;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/Tarta_de_oreo_y_caf%C3%A9_con_leche._Cantabria.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+}
+
+.content{
+    border-color:indigo;
+    text-align: justify;
+    border-style: solid;
+    border-width: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Footer {
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
