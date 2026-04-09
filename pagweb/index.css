@@ -30,3 +30,15 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+#i1 {
+    width: 400px;     
+    height: 300px;    
+    object-fit: cover; 
+}
+
+#i2 {
+    width: 400px;    
+    height: 300px;    
+    object-fit: cover; 
+}
