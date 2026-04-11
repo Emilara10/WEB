@@ -69,8 +69,5 @@ function generarNombreRandom() {
     ];
     var indice = Math.floor(Math.random() * nombresGatos.length);
     var nombreElegido = nombresGatos[indice];
-
-    // 3. Insertamos el nombre en el HTML
-    // Usamos el id "nombreGato" que añadiremos al HTML
     document.getElementById("nombreGato").innerHTML = "Suggested name: <strong>" + nombreElegido + "</strong>";
 }
