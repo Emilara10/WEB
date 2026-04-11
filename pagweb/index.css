@@ -42,3 +42,19 @@ body {
     height: 300px;    
     object-fit: cover; 
 }
+
+button {
+    background-color: indigo;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4b0082; /* Un tono más oscuro de indigo */
+}
