@@ -1,8 +1,8 @@
 /*
- * Simple implementation of the PONG game
+ * B R E A K O U T implementation game
  *
- * Gilberto Echeverria
- * 2025-03-13
+ * José Emilio Lara Posada
+ * 2026-05-15
  */
 
 "use strict";
@@ -123,7 +123,7 @@ class Game {
 
         // initialize sound element
         this.ping = document.createElement("audio");
-        this.ping.src = "../assets/audio/4387__noisecollector__pongblipe4.wav";
+        this.ping.src = "../VideogamesJS/assets/audio/4387__noisecollector__pongblipe4.wav";
         
         // Variables for the points of each player
         this.score = 0;
@@ -172,7 +172,7 @@ class Game {
             this.ball
         ];
 
-        this.ball.setSprite('../assets/sprites/capShield.png')
+        this.ball.setSprite('../VideogamesJS/assets/sprites/capShield.png')
         this.initLevel();
     }
 
@@ -328,11 +328,11 @@ class Game {
 
     activateFireball(){
         this.ball.isFireball = true;
-        this.ball.setSprite('../assets/sprites/hydraShield.png');
+        this.ball.setSprite('../VideogamesJS/assets/sprites/hydraShield.png');
 
         this.fireballTimer = setTimeout(() =>{
             this.ball.isFireball = false;
-            this.ball.setSprite('../assets/sprites/capShield.png');
+            this.ball.setSprite('../VideogamesJS/assets/sprites/capShield.png');
         }, 5000);
     }
 }
